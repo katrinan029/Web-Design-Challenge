@@ -10,16 +10,9 @@
   <style>
     [class*="col"] {
       padding:1rem;
-      /* background-color: #20292c;
-      border: 2px solid #ffffff;
-      color: #ffffff;
-      text-align: left; */
     }
 
   </style>
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -37,7 +30,7 @@
             <a class="nav-link" href="comparisons.html"><i class="fas fa-compress-alt"></i> Comparisons</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               <i class="fas fa-chart-line"></i> Plots
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -58,20 +51,22 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-7">
-        <h1 class="landing-title">Project Summary</h1>
+        <h1 class="landing-title">Wind Speed</h1>
         <hr>
-            <img class="textWrapLeft" src="visualizations/lat_temp.png" alt="sample picture">
-            <p>The purpose of this project was to analyze how weather changes
-            as you get closer to the equator. To accomplish this analysis, I first
-            pulled data from the OpenWeatherMap API to assemble a dataset of over 500 cities.
+            <img src="visualizations/lat_windspeed.png" alt="latitude vs. windspeed">
             <br>
             <br>
-            After assembling the dataset, I used Matplotlib to plot various aspects of the weather vs. latitude.
-            Factors I looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and 
-            visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+            <p>The graph above explores the relationship between latitude and windspeed. 
+            The plot appears to vary widely throughout the different lattudes. For that reason, there does not appear
+            to be any relationship between wind speed and latitude. 
+            <br>
+            <br>
+            Although there does not seem to be a relationship between wind speed and latitude
+            in this dataset, one other observation to mention is that the wind speeds tend to range
+            between 0 and 20 mph for most cities.</p>
       </div>
         <div class="col-md-5">
-        <h1>Visualizations</h1>
+        <h1 class="landing-title">Visualizations</h1>
         <hr>
         <div class="row">
           <div class="col-md-6">

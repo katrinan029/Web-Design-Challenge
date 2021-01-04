@@ -1,0 +1,36 @@
+/* .landing-title {
+  padding-left: 16px;
+} */
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.textWrapLeft {
+  width: 400px;
+}
+
+.graph-title {
+  text-align: center;
+  vertical-align: text-bottom;
+}
+
+@media screen and (min-width: 768px) {
+  .horizontal-xs {
+    display: none;
+  }
+
+  .textWrapLeft {
+    float: left;
+  }
+}
+
+.col-md-12 {
+  padding: 2rem;
+}
+/* body {
+  background-color: rgba(241, 241, 243, 0.575);
+} */
+
+
